@@ -182,33 +182,6 @@
             });
         });
     });
-
-    // $('#data-form').submit(function(e) {
-    //     e.preventDefault();
-    //     var route = $('#form-data').data('route');
-    //     var form_data = $(this);
-    //     $('.alert').remove();
-    // $.json({
-    //     type: 'POST',
-    //     url: route,
-    //     data: form_data.serialize(),
-    //     success: function(Response) {
-    //         console.log(Response);
-    //         if (Response.name) {
-    //             $('#messages').append('<p class = "alert" > '.Response.name);
-    //         }
-    //         if (Response.email) {
-    //             $('#messages').append('<p class = "alert" > '.Response.name);
-    //         }
-    //         if (Response.mobile_number) {
-    //             $('#messages').append('<p class = "alert" > '.Response.name);
-    //         }
-    //         if (Response.ticket_type) {
-    //             $('#messages').append('<p class = "alert" > '.Response.name);
-    //         }
-    //     }
-
-    // });
 </script>
 
 </html>
